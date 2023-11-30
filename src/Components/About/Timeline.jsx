@@ -140,7 +140,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Werkstudent: Frontend Developer
+              Werkstudent: Web Application Developer
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -154,9 +154,8 @@ export const Timeline = () => {
               <li style={{ marginTop: "10px" }}>
                 {pageLanguage == "en" ? (
                   <>
-                    {" "}
-                    Developing web application integrated with microsoft teams
-                    using React JS and Typescript in the frontend
+                    Developed websites for wide vareity of local and
+                    international clients.
                   </>
                 ) : (
                   <>
@@ -183,14 +182,57 @@ export const Timeline = () => {
             </ol>
           </VerticalTimelineElement>
 
-          {/* <VerticalTimelineElement
-            icon={<StarRateIcon />}
+          {/*Work experience 3-ASIT*/}
+          <VerticalTimelineElement
+            date={"April 2017 - October 2019"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
             iconStyle={{
               border: ` 3px solid var(--clr-primary)`,
               backgroundColor: `var(--clr-bg)`,
               color: `var(--clr-primary)`,
             }}
-          ></VerticalTimelineElement> */}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Frontend Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              ASIT, Cumilla, Bangladesh
+            </h4>
+            <ol data-aos="fade-right">
+              {pageLanguage == "en" ? <></> : <></>}
+
+              <li style={{ marginTop: "10px" }}>
+                {pageLanguage == "en" ? (
+                  <>
+                    {" "}
+                    Developing web applications for wide vareity of local and
+                    international clients.
+                  </>
+                ) : (
+                  <>
+                    Entwicklung von Webanwendungen für eine Vielzahl lokaler und
+                    internationaler Kunden.
+                  </>
+                )}
+              </li>
+            </ol>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </>
