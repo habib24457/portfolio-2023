@@ -52,13 +52,20 @@ export const Introduction = () => {
         <h4>
           Hallo,Ich heiße
           <span className="different">&nbsp;Habibur Rahman &nbsp;</span> Ich bin
-          studiert derzeit Mobilität und Logistik an der Hochschule Rhein-Waal.
+          studiert derzeit Mobilität und Logistik an der Hochschule Rhein-Waal,
+          Kamp-Lintfort, Germany.
           <br />
           <br />
-          Ich habe einen Bachelor-Abschluss in Informatik.
-          <span className="different">Daffodil International University.</span>
-          I also have interest in Supply Chain Management, therfore I am doing
-          another bachelor in Mobility and Logistics. <br />
+          <span>
+            Der Schwerpunkt dieses Studiengangs liegt auf den Bereichen IT und
+            Logistik. Haben Da ich in meinem Heimatland bereits Informatik
+            studiert habe, bin ich gespannt darauf Entdecken Sie die
+            Schnittstelle zwischen IT und Supply Chain Management. ICH glauben,
+            dass der Bereich Mobilität und Logistik das Richtige bietet Eine
+            Kombination aus beidem, die es mir ermöglicht, meine IT-Kenntnisse
+            beim Tauchen anzuwenden in die dynamische Welt der Logistik und des
+            Supply Chain Managements.
+          </span>
           <br />
         </h4>
         <h4>Begriffe, die mich neben Coding beschreiben können:</h4>
