@@ -33,7 +33,7 @@ export const Timeline = () => {
         {/*Work experience 1-RWE*/}
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
-            date={"Mar 2023 - Current"}
+            date={"Mar 2024 - Current"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -99,7 +99,7 @@ export const Timeline = () => {
 
           {/*Work experience 2-SocialBnb*/}
           <VerticalTimelineElement
-            date={"June 2021 - December 2022"}
+            date={"March 2023 - September 2023"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -161,7 +161,7 @@ export const Timeline = () => {
 
           {/*Work experience 3-ASIT*/}
           <VerticalTimelineElement
-            date={"April 2017 - October 2019"}
+            date={"June 2021 - December 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
