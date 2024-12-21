@@ -30,7 +30,7 @@ export const Timeline = () => {
         <h2 className="section__title" data-aos="fade-right">
           Professional <span className="different">Experiences</span>
         </h2>
-        {/*Work experience 1-Socialbnb*/}
+        {/*Work experience 1-RWE*/}
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             date={"Mar 2023 - Current"}
@@ -56,67 +56,48 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
               {pageLanguage == "en" ? (
-                <> Internship: Web developer (React JS, Node JS)</>
+                <> Working Student: Software Developer</>
               ) : (
-                <>Praktikum: Webentwickler (React JS, Node JS)</>
+                <>Werkstudent: Software Entwicklung</>
               )}
             </h3>
-            <h4
+            <h2
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
               {pageLanguage == "en" ? (
-                <> at Socialbnb GMBH, Cologne, Germany</>
+                <> at RWE Supply & Trading, Essen, Germany</>
               ) : (
-                <> bei Socialbnb GMBH, Cologne, Germany</>
+                <> bei RWE Supply & Trading, Essen, Germany</>
               )}
-            </h4>
+            </h2>
 
-            <ul style={{ marginTop: "20px" }} data-aos="fade-right">
-              {pageLanguage == "en" ? (
-                <>
-                  <li style={{ marginTop: "10px" }}>
-                    &#8226; Developing interactive and intuitive user interfaces
-                    using React JS.
-                  </li>
-                  <li style={{ marginTop: "10px" }}>
-                    &#8226;Building REST APIs using Node JS.
-                  </li>
-                  <li>
-                    &#8226;Contributing to a web project which used by more than
-                    1000 daily users and improving the performance.{" "}
-                  </li>
-                  <li style={{ marginTop: "10px" }}>
-                    &#8226;
-                    {"Link:"}
-                    <a> https://www.socialbnb.org/</a>
-                  </li>
-                </>
-              ) : (
-                <>
-                  <li style={{ marginTop: "10px" }}>
-                    &#8226; Entwicklung interaktiver und intuitiver
-                    Benutzeroberflächen mit React JS.
-                  </li>
-                  <li style={{ marginTop: "10px" }}>
-                    &#8226;Erstellen von REST-APIs mit Node JS.
-                  </li>
-                  <li style={{ marginTop: "10px" }}>
-                    &#8226;Mitwirken an einem Webprojekt, das von mehr als
-                    genutzt wurde 1000 tägliche Benutzer und Verbesserung der
-                    Leistung.{" "}
-                  </li>
-                  <li style={{ marginTop: "10px" }}>
-                    &#8226;
-                    {"Link:"}
-                    <a> https://www.socialbnb.org/</a>
-                  </li>
-                </>
-              )}
-            </ul>
+            {pageLanguage == "en" ? (
+              <span>
+                RWE is one of the leading renewable energy companies globally,
+                and I have had the opportunity to contribute to several credit
+                risk projects within the company. This role provided an
+                excellent learning experience, particularly in the areas of
+                Cloud & DevOps technologies and software development. Working
+                alongside many experienced senior developers has greatly
+                enhanced my technical skills and broadened my knowledge in these
+                fields.
+              </span>
+            ) : (
+              <span>
+                RWE ist eines der weltweit führenden Unternehmen im Bereich der
+                erneuerbaren Energien und Ich hatte die Gelegenheit, zu mehreren
+                Kreditrisiken beizutragen Projekte im Unternehmen. Diese
+                Funktion bot eine hervorragende Lernerfahrung, insbesondere in
+                den Bereichen Cloud & DevOps Technologien und
+                Softwareentwicklung. Zusammenarbeit mit vielen erfahrene
+                Senior-Entwickler haben meine technische Fähigkeiten und
+                erweiterte mein Wissen in diesen Bereichen.
+              </span>
+            )}
           </VerticalTimelineElement>
 
-          {/*Work experience 2-Tegoly*/}
+          {/*Work experience 2-SocialBnb*/}
           <VerticalTimelineElement
             date={"June 2021 - December 2022"}
             contentStyle={{
@@ -140,46 +121,42 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Werkstudent: Web Application Developer
+              {pageLanguage == "en" ? (
+                <> Internship: Web Application Developer</>
+              ) : (
+                <>Praktikum: Webentwickler</>
+              )}
             </h3>
-            <h4
+            <h2
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Tegoly GMBH, Bochum, Germany
-            </h4>
-            <ol data-aos="fade-right">
-              {pageLanguage == "en" ? <></> : <></>}
-
-              <li style={{ marginTop: "10px" }}>
-                {pageLanguage == "en" ? (
-                  <>
-                    Developed websites for wide vareity of local and
-                    international clients.
-                  </>
-                ) : (
-                  <>
-                    Entwickeln einer Webanwendung, die in Microsoft-Teams
-                    integriert ist Reagieren Sie im Frontend auf JS und
-                    Typescript
-                  </>
-                )}
-              </li>
-
               {pageLanguage == "en" ? (
-                <li style={{ marginTop: "10px" }}>
-                  Developing REST APIs using dotnet core web API
-                </li>
+                <> at Socialbnb GMBH, Cologne, Germany</>
               ) : (
-                <li>
-                  Entwickeln von REST-APIs mithilfe der Dotnet-Core-Web-API
-                </li>
+                <> bei Socialbnb GMBH, Cologne, Germany</>
               )}
-              <li style={{ marginTop: "10px" }}>
-                {"Link:"}
-                <a>https://tegoly.com/</a>
-              </li>
-            </ol>
+            </h2>
+
+            {pageLanguage == "en" ? (
+              <span>
+                Socialbnb is a travel organization, and I was part of the team
+                responsible for developing their web application. The platform
+                allows users to browse and book available accommodations.
+                Additionally, I contributed to the development of several
+                internal applications, which the company used to manage their
+                finances.
+              </span>
+            ) : (
+              <span>
+                Socialbnb ist eine Reiseorganisation, und ich war Teil des
+                Teams, das für die Entwicklung ihrer Webanwendung verantwortlich
+                war. Die Plattform ermöglicht es den Nutzern, verfügbare
+                Unterkünfte zu durchsuchen und zu buchen. Darüber hinaus habe
+                ich an der Entwicklung mehrerer interner Anwendungen mitgewirkt,
+                mit denen das Unternehmen seine Finanzen verwaltete.
+              </span>
+            )}
           </VerticalTimelineElement>
 
           {/*Work experience 3-ASIT*/}
@@ -206,32 +183,32 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Frontend Developer
+              Werkstudent: Web Application Developer
             </h3>
-            <h4
+            <h2
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              ASIT, Cumilla, Bangladesh
-            </h4>
-            <ol data-aos="fade-right">
-              {pageLanguage == "en" ? <></> : <></>}
-
-              <li style={{ marginTop: "10px" }}>
-                {pageLanguage == "en" ? (
-                  <>
-                    {" "}
-                    Developing web applications for wide vareity of local and
-                    international clients.
-                  </>
-                ) : (
-                  <>
-                    Entwicklung von Webanwendungen für eine Vielzahl lokaler und
-                    internationaler Kunden.
-                  </>
-                )}
-              </li>
-            </ol>
+              Tegoly GMBH, Bochum, Germany
+            </h2>
+            {pageLanguage == "en" ? (
+              <span>
+                Tegoly GmbH is a start up that develops business software. One
+                of their key software was a document signature software
+                integrated with microsoft teams.I was a part of developing this
+                software since the beginning and there were some other internal
+                projects where I have contributed.
+              </span>
+            ) : (
+              <span>
+                Die Tegoly GmbH ist ein Start-up, das Business-Software
+                entwickelt. Eins Eine ihrer wichtigsten Software war eine
+                Software zur Signatur von Dokumenten Integriert mit Microsoft
+                Teams. Ich war an der Entwicklung beteiligt Software von Anfang
+                an und es gab einige andere interne Projekte, an denen ich
+                mitgewirkt habe.
+              </span>
+            )}
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

@@ -19,6 +19,7 @@ import {
   SiDotnet,
   SiCsharp,
   SiMysql,
+  SiAwsamplify,
 } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
@@ -34,28 +35,32 @@ export const Techstacks = () => {
         </h2>
         <div className="techsection">
           <div>
-            <SiJavascript />
-            <h5>Javascript</h5>
+            <SiCsharp />
+            <h5>C#</h5>
           </div>
           <div>
-            <SiTypescript />
-            <h5>Typescript</h5>
+            <SiDotnet />
+            <h5>.Net core</h5>
+          </div>
+          <div>
+            <SiMysql />
+            <h5>SQL</h5>
+          </div>
+          <div>
+            <SiAwsamplify />
+            <h5>AWS</h5>
+          </div>
+          <div>
+            <SiJavascript />
+            <h5>Javascript</h5>
           </div>
           <div>
             <FaReact />
             <h5>React</h5>
           </div>
           <div>
-            <SiCsharp />
-            <h5>C#</h5>
-          </div>
-          <div>
-            <SiDotnet />
-            <h5>Dotnet core</h5>
-          </div>
-          <div>
-            <SiMysql />
-            <h5>MySQL</h5>
+            <SiTypescript />
+            <h5>Typescript</h5>
           </div>
           <div>
             <FaNodeJs />

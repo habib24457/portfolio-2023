@@ -16,12 +16,17 @@ export const Introduction = () => {
           Hi Everyone, My name is
           <span className="different"> Habibur Rahman </span> I am currently
           studying Mobility and Logistics at Rhein Waal University of Applied
-          Sciences.
+          Sciences in Kamp Lintfort, Germany.
           <br />
-          <br />I have a bachelor degree in Computer Science and Engineering.
-          <span className="different">Daffodil International University.</span>
-          I also have interest in Supply Chain Management, therfore I am doing
-          another bachelor in Mobility and Logistics.
+          <br />
+          <span className="different">
+            This degree course primarily focuses on IT and Logistics. Having
+            already studied computer science in my home country, I am eager to
+            explore the intersection of IT and supply chain management. I
+            believe that the field of Mobility and Logistics offers the perfect
+            combination of both, allowing me to apply my IT skills while diving
+            into the dynamic world of logistics and supply chain management.
+          </span>
           <br />
         </h4>
         <h4>Terms That can describe me apart form Coding :</h4>

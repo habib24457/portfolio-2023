@@ -25,25 +25,21 @@ export const About = () => {
         <p className="about__desc" data-aos="fade-right">
           {pageLanguage == "en" ? (
             <>
-              Software developer with 4+ years of hands-on experience in the
-              field of web development. I excel in designing and implementing
-              scalable solutions, and my expertise spans such as full-stack
-              development. Committed to delivering high-quality code and staying
-              ahead in a rapidly evolving tech landscape. Let's connect to
-              explore opportunities for collaboration and discuss how my skills
-              can contribute to your next project!
+              Software developer with 3 years of hands-on experience in the
+              field of Web Application Development and Software development. I
+              excel in designing and implementing scalable solutions. I have
+              achieved certifications in C# from Microsoft and AWS Cloud
+              computing fundamentals from AWS. My strong point is my contenuous
+              learning mindset.
             </>
           ) : (
             <>
-              Softwareentwickler mit mehr als 4 Jahren praktischer Erfahrung in
-              der Bereich der Webentwicklung. Ich bin ein Meister im Entwerfen
-              und Umsetzen skalierbare Lösungen, und meine Expertise umfasst
-              beispielsweise Full-Stack Entwicklung. Wir sind bestrebt,
-              qualitativ hochwertigen Code zu liefern und zu bleiben in einer
-              sich schnell entwickelnden Technologielandschaft die Nase vorn zu
-              haben. Lassen Sie uns eine Verbindung herstellen Entdecken Sie
-              Möglichkeiten zur Zusammenarbeit und besprechen Sie, wie meine
-              Fähigkeiten aussehen kann zu Ihrem nächsten Projekt beitragen!
+              Softwareentwickler mit 3 Jahren praktischer Erfahrung in der
+              Bereich Webanwendungsentwicklung und Softwareentwicklung. Ich bin
+              ein Meister im Entwerfen und Umsetzen skalierbare Lösungen. Ich
+              habe Zertifizierungen in C# von Microsoft und AWS Cloud
+              Computing-Grundlagen von AWS erhalten. Meine Stärke ist meine
+              Einstellung zum kontinuierlichen Lernen.
             </>
           )}
         </p>
