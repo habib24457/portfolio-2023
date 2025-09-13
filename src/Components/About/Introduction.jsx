@@ -15,17 +15,18 @@ export const Introduction = () => {
         <h4>
           Hi Everyone, My name is
           <span className="different"> Habibur Rahman </span> I am currently
-          studying Mobility and Logistics at Rhein Waal University of Applied
-          Sciences in Kamp Lintfort, Germany.
+          studying Mobility and Logistics with focus in IT and Business, at
+          Rhein Waal University of Applied Sciences in Kamp Lintfort, Germany.
           <br />
           <br />
           <span className="different">
-            This degree course primarily focuses on IT and Logistics. Having
-            already studied computer science in my home country, I am eager to
-            explore the intersection of IT and supply chain management. I
-            believe that the field of Mobility and Logistics offers the perfect
-            combination of both, allowing me to apply my IT skills while diving
-            into the dynamic world of logistics and supply chain management.
+            I am passionate about building excellent software that solves real
+            world issues. I am also passionate about writing clean code,
+            developing stable software. Beside coding, I always motivated to
+            influence people by sharing my knowledge and friendly behavior. In
+            the free time I always focus on what technology is trending now a
+            days, and try to upgrade myself. Or Sometimes I just go for a long
+            walk with my Nikon camera to capture Life and moments.
           </span>
           <br />
         </h4>
@@ -52,19 +53,20 @@ export const Introduction = () => {
         <h4>
           Hallo,Ich heiße
           <span className="different">&nbsp;Habibur Rahman &nbsp;</span> Ich bin
-          studiert derzeit Mobilität und Logistik an der Hochschule Rhein-Waal,
-          Kamp-Lintfort, Germany.
+          studiert derzeit Mobilität und Logistik mit Schwerpunkt Informatik und
+          Wirtschaft an der Hochschule Rhein-Waal, Kamp-Lintfort, Germany.
           <br />
           <br />
           <span>
-            Der Schwerpunkt dieses Studiengangs liegt auf den Bereichen IT und
-            Logistik. Haben Da ich in meinem Heimatland bereits Informatik
-            studiert habe, bin ich gespannt darauf Entdecken Sie die
-            Schnittstelle zwischen IT und Supply Chain Management. ICH glauben,
-            dass der Bereich Mobilität und Logistik das Richtige bietet Eine
-            Kombination aus beidem, die es mir ermöglicht, meine IT-Kenntnisse
-            beim Tauchen anzuwenden in die dynamische Welt der Logistik und des
-            Supply Chain Managements.
+            Ich bin leidenschaftlich daran interessiert, hervorragende Software
+            zu entwickeln, die reale Probleme löst. Außerdem lege ich großen
+            Wert auf sauberen Code und die Entwicklung stabiler Software. Neben
+            dem Programmieren motiviert es mich, Menschen durch das Teilen
+            meines Wissens und mein freundliches Verhalten zu inspirieren. In
+            meiner Freizeit informiere ich mich immer über aktuelle
+            Technologietrends und versuche, mich weiterzuentwickeln. Oder
+            manchmal mache ich einfach einen langen Spaziergang mit meiner
+            Nikon-Kamera, um das Leben und besondere Momente einzufangen.
           </span>
           <br />
         </h4>

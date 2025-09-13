@@ -25,21 +25,26 @@ export const About = () => {
         <p className="about__desc" data-aos="fade-right">
           {pageLanguage == "en" ? (
             <>
-              Software developer with 3 years of hands-on experience in the
-              field of Web Application Development and Software development. I
-              excel in designing and implementing scalable solutions. I have
-              achieved certifications in C# from Microsoft and AWS Cloud
-              computing fundamentals from AWS. My strong point is my contenuous
-              learning mindset.
+              Software developer with 4 years of hands-on experience in Germany.
+              I excel in designing and implementing scalable solutions. I have
+              worked in large Enterprise .NET Applications. Migrating old .NET
+              Applications into the modern .NET. I have worked with large
+              international teams. Collaborated with QA, DevOps teams. I can
+              communicate fluently in English and German. I have integrated
+              myself to the German work culture, and ready for a fulltime
+              position.
             </>
           ) : (
             <>
-              Softwareentwickler mit 3 Jahren praktischer Erfahrung in der
-              Bereich Webanwendungsentwicklung und Softwareentwicklung. Ich bin
-              ein Meister im Entwerfen und Umsetzen skalierbare Lösungen. Ich
-              habe Zertifizierungen in C# von Microsoft und AWS Cloud
-              Computing-Grundlagen von AWS erhalten. Meine Stärke ist meine
-              Einstellung zum kontinuierlichen Lernen.
+              Softwareentwickler mit 4 Jahren praktischer Erfahrung im
+              Deutschland . Ich bin spezialisiert auf die Entwicklung und
+              Implementierung skalierbarer Lösungen. Ich habe an großen
+              Enterprise .NET-Anwendungen gearbeitet und alte .NET-Anwendungen
+              in moderne .NET-Technologien migriert. Ich habe mit großen
+              internationalen Teams gearbeitet und mit QA- und DevOps-Teams
+              zusammengearbeitet. Ich kann fließend Englisch und Deutsch
+              kommunizieren. Ich habe mich erfolgreich in die deutsche
+              Arbeitskultur integriert und bin bereit für eine Festanstellung.
             </>
           )}
         </p>
